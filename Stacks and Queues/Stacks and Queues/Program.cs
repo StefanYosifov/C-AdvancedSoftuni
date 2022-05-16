@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Stacks_and_Queues
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string input=Console.ReadLine();
+            Stack<char> stack=new Stack<char>();
+
+            foreach(char c in input)
+            {
+                stack.Push(c);
+            }
+
+            while (stack.Count > 0)
+            {
+                Console.WriteLine(stack.Pop());
+            }
+        }
+    }
+}
