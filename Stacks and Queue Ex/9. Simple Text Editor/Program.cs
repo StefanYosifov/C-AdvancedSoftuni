@@ -12,6 +12,7 @@ namespace Problem_9.__Simple_Text_Editor
             var n = int.Parse(Console.ReadLine());
             var builder = new StringBuilder();
             var stack = new Stack<string>();
+            stack.Push(builder.ToString());
 
             for (int i = 0; i < n; i++)
             {
