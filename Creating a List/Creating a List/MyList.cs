@@ -129,22 +129,9 @@
             this.elements[index] = item;
         }
 
-        private void ShiftRight(int index)
-        {
-            if (this.Count == this.capacity)
-            {
-                this.elements = this.DoubleCapacity();
-            }
+       
 
-
-            for (int i=this.size; i > index; i--)
-            {
-                this.elements[i] = this.elements[i - 1];
-            }
-        }
-
-        // 2 5 7 9
-        // 2 1 5 7 9
+     
 
 
         public bool Remove(T item)
@@ -161,31 +148,36 @@
             return false;
         }
 
-        private void ShiftLeftElements(int index)
-        {
-            for(int i = index; i < this.Count-1; i++)
-            {
-                this.elements[i] = this.elements[i+1];
-            }
-            this.size--;
-        }
-
-
-        // 1 2 3 4 5 6 3 4 5 6
-        // 1 2 4 5 6 3 4 5 6
 
         public void RemoveAt(int index)
         {
             ShiftLeftElements(index);
         }
 
-        // 1 2 4 7 9 -> 4
-        // 1 2 7 9
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+
+
+        private void ShiftRight(int index)
+        {
+            if (this.Count == this.capacity)
+            {
+                this.elements = this.DoubleCapacity();
+            }
+
+
+            for (int i = this.size; i > index; i--)
+            {
+                this.elements[i] = this.elements[i - 1];
+            }
+        }
 
         private T[] DoubleCapacity()
         {
-            T[] newArray=new T[this.capacity*2];
-            for(int i = 0; i < this.Count; i++)
+            T[] newArray = new T[this.capacity * 2];
+            for (int i = 0; i < this.Count; i++)
             {
                 newArray[i] = this.elements[i];
             }
@@ -193,10 +185,15 @@
             return newArray;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        private void ShiftLeftElements(int index)
         {
-            return this.GetEnumerator();
+            for (int i = index; i < this.Count - 1; i++)
+            {
+                this.elements[i] = this.elements[i + 1];
+            }
+            this.size--;
         }
+
 
         private T[] HalveCapacity()
         {
