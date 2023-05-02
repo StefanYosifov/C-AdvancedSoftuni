@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Container with most water", "Container with most water\Container with most water.csproj", "{F0A0B09F-1E57-48E1-A48B-94DA8B7D1915}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26. Remove Duplicates from Sorted Array", "26. Remove Duplicates from Sorted Array\26. Remove Duplicates from Sorted Array.csproj", "{E0E6B902-69B1-4E60-86F5-8CE242735098}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33. Search in Rotated Sorted Array", "33. Search in Rotated Sorted Array\33. Search in Rotated Sorted Array.csproj", "{816A0064-C6FC-44EC-903E-586F3143B3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid palindrome", "Valid palindrome\Valid palindrome.csproj", "{7C2B313B-B089-4F08-B15D-4D9E20AEEAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum 2", "Two Sum 2\Two Sum 2.csproj", "{2650F44D-8968-4E6D-B836-235CD868345B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Substring Without Repeating Characters", "Longest Substring Without Repeating Characters\Longest Substring Without Repeating Characters.csproj", "{F83E3614-3C99-49F2-B086-63FA01B9734D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A0B09F-1E57-48E1-A48B-94DA8B7D1915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A0B09F-1E57-48E1-A48B-94DA8B7D1915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A0B09F-1E57-48E1-A48B-94DA8B7D1915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A0B09F-1E57-48E1-A48B-94DA8B7D1915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E6B902-69B1-4E60-86F5-8CE242735098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E6B902-69B1-4E60-86F5-8CE242735098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E6B902-69B1-4E60-86F5-8CE242735098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E6B902-69B1-4E60-86F5-8CE242735098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816A0064-C6FC-44EC-903E-586F3143B3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816A0064-C6FC-44EC-903E-586F3143B3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816A0064-C6FC-44EC-903E-586F3143B3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816A0064-C6FC-44EC-903E-586F3143B3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2B313B-B089-4F08-B15D-4D9E20AEEAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2B313B-B089-4F08-B15D-4D9E20AEEAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2B313B-B089-4F08-B15D-4D9E20AEEAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2B313B-B089-4F08-B15D-4D9E20AEEAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2650F44D-8968-4E6D-B836-235CD868345B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2650F44D-8968-4E6D-B836-235CD868345B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2650F44D-8968-4E6D-B836-235CD868345B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2650F44D-8968-4E6D-B836-235CD868345B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83E3614-3C99-49F2-B086-63FA01B9734D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83E3614-3C99-49F2-B086-63FA01B9734D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83E3614-3C99-49F2-B086-63FA01B9734D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83E3614-3C99-49F2-B086-63FA01B9734D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C02B29B-212F-4844-A96E-780A753C4C16}
+	EndGlobalSection
+EndGlobal
