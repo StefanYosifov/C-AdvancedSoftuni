@@ -10,4 +10,8 @@ Aquired skills:
 
 Certificate:
 --
-<a>Link to the certificate<a/>
+
+<a name="Certificate"></a>
+[Link to certificate](https://softuni.bg/certificates/certificates/converttoimage/136325?code=9b19930d)
+
+
